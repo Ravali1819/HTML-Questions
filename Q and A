@@ -1,0 +1,125 @@
+1. What is the difference between <figure> tag and <img> tag?
+Ans. The <figure> tag specifies the self-contained content, like diagrams, images, code snippets, etc. 
+      <figure> tag is used to semantically organize the contents of an image like image, image caption, etc., 
+      whereas the <img> tag is used to embed the picture in the HTML document.
+      
+2. Is the <datalist> tag and <select> tag same?
+Ans. No. The <datalist> tag and <select> tag are different. 
+      In case of <select> tag a user will have to choose from a list of options,
+      whereas <datalist> when used along with the <input> tag provides a suggestion that the user selects one of the options given or can enter some entirely different value.
+      
+3. Can we display a web page inside a web page or Is nesting of webpages possible?
+Ans. Yes, we can display a web page inside another HTML web page. HTML provides a tag <iframe> using which we can achieve this functionality.
+      <iframe src=”url of the web page to embed” />
+      
+4. What is the advantage of collapsing white space?
+Ans. In HTML, a blank sequence of whitespace characters is treated as a single space character, 
+      Because the browser collapses multiple spaces into a single space character and this helps a developer to indent lines of text without worrying about multiple spaces and maintain readability and understandability of HTML codes.
+      
+5. How is Cell Padding different from Cell Spacing?
+Ans. Cell Spacing is the space or gap between two consecutive cells.
+      Whereas, Cell Padding is the space or gap between the text/ content of the cell and the edge/ border of the cell.
+      Please refer to the above figure example to find the difference.
+      
+6. Is it possible to change an inline element into a block level element?
+Ans. Yes, it is possible using the “display” property with its value as “block”, to change the inline element into a block-level element.
+
+7. What is the difference between “display: none” and “visibility: hidden”, when used as attributes to the HTML element.
+Ans. When we use the attribute “visibility:hidden” for an HTML element then that element will be hidden from the webpage but still takes up space. Whereas, 
+      if we use the “display: none” attribute for an HTML element then the element will be hidden, and also it won’t take up any space on the webpage.
+      
+8. Difference between link tag <link> and anchor tag <a>?
+Ans. The anchor tag <a> is used to create a hyperlink to another webpage or to a certain part of the webpage and these links are clickable, whereas, 
+      link tag <link> defines a link between a document and an external resource and these are not clickable.
+      
+9. What are the entities in HTML?
+Ans. The HTML character entities are used as a replacement for reserved characters in HTML. 
+      You can also replace characters that are not present on your keyboard by entities. These characters are replaced because some characters are reserved in HTML.
+      
+10. How do you separate a section of texts in HTML?
+Ans. We separate a section of texts in HTML using the below tags:
+
+      <br> tag – It is used to separate the line of text. It breaks the current line and shifts the flow of the text to a new line.
+      <p> tag–This tag is used to write a paragraph of text.
+      <blockquote> tag–This tag is used to define large quoted sections.
+      
+11. How do you create links to different sections within the same HTML web page?
+Ans. We use the <a> tag, along with referencing through the use of the # symbol, to create several links to different sections within the same web page.
+
+12. How to underline text in HTML?
+Ans. <u> tag is used for underline the text. The <u> tag was deprecated in HTML, but then they re-introduced in HTML5.
+
+13. Why do we use doctype in HTML?
+Ans. Doctype is used for Document Type Declaration and also It informs the web browser about the type and version of HTML used in building the web document.
+
+14. Is it possible to change the color of the bullet?
+Ans. To change the color of the bullet, you need to change the text color of the first line in the list. The bullet takes the color from the first line of the list.
+
+15. What are Forms in HTML?
+Ans. If you want to collect the information of the visitors to the webpage, you can add a form to the webpage. 
+      Once the user enters the information into the form fields, it is added to a database specified by you.
+      
+16. What are void elements in HTML?
+Ans. Some elements in HTML only need an opening tag, without the need for a close tag, and these are known as void elements. 
+      Some examples are <br />, <img />, <hr />, etc.
+      
+17. What is the use of an IFrame tag?
+Ans. IFrame or Inline Frame is basically an HTML document implanted inside the other  HTML documents on a website. 
+        The IFrame element is used for inserting content from other source, which can be an advertisement into a webpage.
+        
+18.  Does a hyperlink apply to text only?
+Ans. No, hyperlinks can be used in the text as well as images. That means you can convert an image into a link that will allow users to link to another page when clicked. 
+        Surround the image within the <a href=” “>…</a> tag combinations.
+
+19. What is the advantage of grouping several checkboxes together?
+Ans. Although checkboxes don’t affect one another, grouping checkboxes together help to organize them. 
+        Checkbox buttons can have their name and do not need to belong to a group. A single web page can have many different groups of checkboxes.
+        
+20. What is the Application Cache in HTML5 and why it is used?
+Ans. The Application Cache concept means that a web application is cached. It can be accessible without the need for internet connection.
+
+21. Differentiate Class selector from ID selector?
+Ans. While an overall block is given to class selector, ID selector prefers only a single element differing from other elements. 
+        In other words, ID is uniques while classes are not. It’s possible that an element has both class and ID.
+        
+22. What are tags and attributes in HTML?
+Ans. Tags are the primary component of the HTML which defines how the content will be structured/ formatted, whereas Attributes are used along with the HTML tags to define the characteristics of the element. 
+        For example, <p align=”center”>Interview questions</p>, \in this the ‘align’ is the attribute using which we will align the paragraph to show in the center of the view.
+        
+23. What is the difference between <strong>, <b> tags and <em>, <i> tags?
+Ans. The effect on a normal webpage of the tags <strong>, <b>  and <em>, <i> is the same. <b> and <i> tags stands for bold and italic. These two tags only apply font styling and bold tag <b>, 
+        just adds more ink to the text, these tags don't say anything about the text. 
+        Whereas, <strong> and <em> tags represents that the span of text is of strong importance or more importance and emphatic stress respectively,
+        than the rest of the text. These tags have semantic meaning.
+        
+24. What are Semantic Elements?
+Ans. Semantic elements are those which describe the particular meaning to the browser and the developer. 
+        Elements like <form>, <table>, <article>, <figure>, etc., are semantic elements.
+        
+25. In how many ways can we specify the CSS styles for the HTML element?
+Ans. There are three ways in which we can specify the styles for HTML element:
+        Inline: Here we use the ‘style’ attribute inside the HTML element.
+        Internal: Here we use the <style> tag inside the <head> tag. To apply the style we bind the elements using ‘id’ or ‘class’ attributes.
+        External: Here we use the <link> tag inside <head> tag to reference the css file into our HTML code. Again the binding between elements and styles is done using ‘id’ or ‘class’ attributes.
+        
+26. What type of audio files can be played using HTML?
+Ans. HTML5 supports the following three types of audio file formats:
+      1.Mp3
+      2.WAV
+      3.Ogg
+      
+27.Do all HTML tags have an end tag?
+Ans. No. There are some HTML tags that don't need a closing tag. For example: <image> tag, <br> tag. 
+
+28. How to create a hyperlink in HTML?
+Ans. The HTML provides an anchor tag to create a hyperlink that links one page to another page. These tags can appear in any of the following ways:
+        Unvisited link - It is displayed, underlined and blue.
+        Visited link - It is displayed, underlined and purple.
+        Active link - It is displayed, underlined and red.
+        
+29. How to insert a copyright symbol on a browser page?
+Ans. You can insert a copyright symbol by using &copy; or &#169; in an HTML file.
+
+30. What is a style sheet?
+Ans. A style sheet is used to build a consistent, transportable, and well-designed style template. You can add these templates on several different web pages. 
+      It describes the look and formatting of a document written in markup language.
